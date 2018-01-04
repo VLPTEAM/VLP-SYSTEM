@@ -1,0 +1,30 @@
+QMenuBar { 
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+    stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), 
+    stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+    }
+QMenuBar::item {
+    spacing: 100px;
+    padding: 2px 10px;
+    background: transparent;
+    border-radius: 4px;
+    }
+QMenuBar::item:selected { 
+    background: #a8a8a8;
+    } 
+QMenuBar::item:pressed {
+    background: #888888;
+    }
+QMenu {
+    background-color: white;
+    border: 1px solid white;
+    }
+QMenu::item {
+    background-color: transparent;
+    padding:8px 32px;
+    margin:0px 8px;
+    border-bottom:1px solid #DBDBDB;
+    }
+QMenu::item:selected {
+    background-color: #2dabf9;
+    }
